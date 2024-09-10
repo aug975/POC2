@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- 
+POC 2
+Existem métodos de manipulação de arrays para facilitar os processos de programação.
+-->
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Métodos de Array</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Métodos de Array</h1>
+    <h2>Existem métodos de manipulação de arrays para facilitar os processos de programação.</h2>
+    <h3>Utilizamos como controle um array com 5 strings e um com 5 números.</h3>
+    <div id="div1"></div>
+    <h3>array.sort()</h3>
+    <h4>Por padrão, o método sort() recebe um array de strings e retorna o mesmo array em ordem alfabética.</h4>
+    <h4>O resultado irá substituir o array original.</h4>
+    <div id="div2"></div>
+    <h4>O método pode receber uma função como parâmetro que determina a ordem em que vai organizar os itens.</h4>
+    <h4>Por exemplo, podemos utilizar sort() para colocar um array de números em ordem se como parâmetro inserirmos uma função matemática simples de subtrair um item do outro.</h4>
+    <div id="div3"></div>
+    <h4>Utilizando sort() com a função matemática...</h4>
+    <div id="div4"></div>
+    <h4>Se utilizarmos a função inversa da utilizada como parâmetro, iremos obter o resultado inverso.</h4>
+    <div id="div5"></div>
+    <h3>array.filter()</h3>
+    <h4>Por padrão, o método filter() recebe um array e retorna o mesmo array somente com itens que passem um filtro especificado.</h4>
+    <h4>Este filtro é especificado por uma função inserida como parâmetro.</h4>
+    <h4>Por exemplo, podemos filtrar o array inicial de strings para somente nomes com menos de 12 caracteres.</h4>
+    <div id="div6"></div>
+    <h4>Podemos filtrar o array inicial de números para somente números menores que 3000.</h4>
+    <div id="div7"></div>
+    <h3>array.map()</h3>
+    <h4>Por padrão, o map() recebe um array e retorna o mesmo array aplicando uma função para cada item.</h4>
+    <h4>Esta função é inserida como parâmetro.</h4>
+    <h4>Por exemplo, podemos adicionar a letra "a" a cada nome do array inicial de strings.</h4>
+    <div id="div8"></div>
+    <h4>Podemos dividir cada número do array inicial de números por 10.</h4>
+    <div id="div9"></div>
+    <h3>array.reduce()</h3>
+    <h4>Por padrão, o reduce() recebe um array e, aplicando uma função aos itens, retorna o único valor resultante.</h4>
+    <h4>Esta função é inserida como parâmetro.</h4>
+    <h4>Por exemplo, podemos juntar os nomes do array inicial de strings em um único nome.</h4>
+    <div id="div10"></div>
+    <h4>Podemos obter a soma de todos os números no array inicial de números.</h4>
+    <div id="div11"></div>
+    <h3>spread</h3>
+    <h4>O operador spread quebra um array em variáveis. Ele torna um array de itens em somente os itens.</h4>
+    <h4>Para utilizar o operador, colocamos ... antes do nome do array.</h4>
+    <h4>Por exemplo, se juntarmos os dois arrays iniciais em um array, o resultado padrão será:</h4>
+    <div id="div12"></div>
+    <h4>Isto não dividiu os dois arrays em um único array.</h4>
+    <h4>De forma manual, podemos colocar individualmente cada item de cada um dos arrays em um terceiro array para obter tal resultado.</h4>
+    <h4>Mas utilizando o operador spread, podemos facilmente quebrar os dois arrays e colocar as variáveis em um array final.</h4>
+    <div id="div13"></div>
+    <h4>Podemos utilizar o operador spread para extrair um elemento específico no início de um array.</h4>
+    <h4>Por exemplo, utilizando o operador, podemos criar um array com apenas os dois primeiros nomes do array de strings inicial.</h4>
+    <div id="div14"></div>
+    <script src="script.js"></script>
+</body>
+</html>

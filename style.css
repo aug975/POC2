@@ -1,0 +1,15 @@
+h1,h2,h3,h4,h5,li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    background-color: bisque;
+}
+
+li:hover {
+    background-color: bisque;
+}
+
+body {
+    background-color: rgb(255, 245, 233);
+}
